@@ -2,7 +2,8 @@
 GITHUB_USERNAME=buenorafa
 GITHUB_EMAIL=rafael.limeira@academico.ifpb.edu.br
 
-SERVICE_NAME=order
+# order , payment 
+SERVICE_NAME=shipping
 RELEASE_VERSION=v1.2.3
 
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest 
