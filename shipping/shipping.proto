@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github/buenorafa/microservices-proto/golang/shipping";
+option go_package = "github.com/buenorafa/microservices-proto/golang/shipping";
 
 message ShippingItem {
     int32 quantity = 1;
@@ -11,7 +11,7 @@ message CreateShippingRequest {
 }
 
 message CreateShippingResponse {
-    int64 delivery_days = 1;
+    int32 delivery_days = 1;
 }
 
 service Shipping {
